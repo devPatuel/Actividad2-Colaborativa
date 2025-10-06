@@ -18,19 +18,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.prueba3.ui.theme.Prueba3Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Surface (
-                modifier=Modifier.fillMaxSize(),
+            Surface(
+                modifier = Modifier.fillMaxSize(),
                 color = MaterialTheme.colorScheme.background,
             )
             {
-
                 Prueba3Theme {
                     GreetingText(
                         message = "Happy Birthday Sam!",
@@ -45,7 +43,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 
-fun GreetingText(message:String,from : String,  modifier: Modifier = Modifier) {
+fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
     Column(
         verticalArrangement = Arrangement.Center,
         modifier = modifier,
@@ -73,8 +71,8 @@ fun GreetingText(message:String,from : String,  modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    Surface (
-        modifier=Modifier.fillMaxSize(),
+    Surface(
+        modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.background,
     )
     {
