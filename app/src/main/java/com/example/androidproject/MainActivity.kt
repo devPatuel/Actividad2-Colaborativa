@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                 Prueba3Theme {
                     GreetingText(
                         message = "Happy Birthday Angel Cantero!",
-                        from = "From Santa Claus",
+                        from = "From Papa Noel",
                         modifier = Modifier.padding(100.dp)
                     )
                 }
