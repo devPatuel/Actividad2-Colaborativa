@@ -39,3 +39,5 @@ Dins d'android studio:
 ### 8 - Un alumne mescla les branques en ordre en la branca main: resolució de conflictes.
 Anem una a una cada rama y en el menu contextual:
 ![Pull y merge](docs/merge.jpg)
+Una vegada fets tots els merge, fem un commit amb tots els cambis
+![Final](docs/final.png)
